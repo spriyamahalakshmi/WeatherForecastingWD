@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <p class="top-title">Weather Forecast</p>
+    <div class="cards">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name" spellcheck="false">
+            <button id="searchBtn"><img src="images/search.png" ></button>
+        </div>
+        <div class="weather">
+            <img src="images/rain.png" class="icons">
+            <h1 class="temp">22°c</h1>
+            <h2 class="city">Chennai</h2>
+            <div class="details">
+                <div class="row1">
+                    <img src="images/humidity.png" alt="Humidity">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="row1">
+                    <img src="images/wind.png" alt="Humidity">
+                    <div>
+                        <p class="winds">5 km</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    <div class="recommendations cards" id="recommendations"></div>>
+    <div class="alerts"></div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
